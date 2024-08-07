@@ -11,19 +11,19 @@ import { MenuItem } from 'primeng/api';
 })
 export class HomeComponent {
 
-  // public navbarItems: MenuItem[] | undefined;
+  public navbarItems: MenuItem[] | undefined;
 
-  // constructor(){
-  //   this.defineNavBarItems();
-  // }
+  constructor(){
+    this.defineNavBarItems();
+  }
 
-  // private defineNavBarItems(): void {
-  //   this.navbarItems = [
-  //     {
-  //       label: 'Home',
-  //       icon: 'pi pi-home'
-  //     }
-  //   ];
-  // }
+  private defineNavBarItems(): void {
+    this.navbarItems = [
+      {
+        label: 'Home',
+        icon: 'pi pi-home'
+      }
+    ];
+  }
 
 }
