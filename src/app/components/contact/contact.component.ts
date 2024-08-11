@@ -1,18 +1,17 @@
 import { Component } from '@angular/core';
-import { NavHeaderComponent } from '../nav-header/nav-header.component';
 import { MenuItem } from 'primeng/api';
-import { Router } from '@angular/router';
-import { PathConstantes } from '../../../constantes/path';
 import { NavbarModel } from '../../models/navbar.model';
+import { Router } from '@angular/router';
+import { NavHeaderComponent } from '../nav-header/nav-header.component';
 
 @Component({
-  selector: 'home',
+  selector: 'app-contact',
   standalone: true,
   imports: [NavHeaderComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './contact.component.html',
+  styleUrl: './contact.component.css'
 })
-export class HomeComponent {
+export class ContactComponent {
 
   public navbarModele: NavbarModel;
 
