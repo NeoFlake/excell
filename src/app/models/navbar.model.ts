@@ -1,6 +1,6 @@
 import { Router } from "@angular/router";
 import { MenuItem } from "primeng/api";
-import { PathConstantes } from "../../constantes/path";
+import { PathConstantes } from "../constantes/path";
 
 export class NavbarModel {
 

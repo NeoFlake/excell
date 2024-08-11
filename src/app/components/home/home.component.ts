@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavHeaderComponent } from '../nav-header/nav-header.component';
 import { MenuItem } from 'primeng/api';
 import { Router } from '@angular/router';
-import { PathConstantes } from '../../../constantes/path';
+import { PathConstantes } from '../../constantes/path';
 import { NavbarModel } from '../../models/navbar.model';
 
 @Component({

@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { PathConstantes } from '../constantes/path';
+import { PathConstantes } from './constantes/path';
 import { MainComponent } from './components/main/main.component';
 import { ContactComponent } from './components/contact/contact.component';
 

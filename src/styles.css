@@ -1,3 +1,19 @@
 @import "primeng/resources/themes/lara-dark-cyan/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.p-menubar, .p-submenu-list {
+    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+}
+
+.p-submenu-list {
+    margin-top: 5.5%;
+    border-radius: 0 0 6px 6px;
+}
